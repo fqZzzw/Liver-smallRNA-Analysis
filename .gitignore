@@ -1,0 +1,16 @@
+
+data/
+*.bam
+*.bai
+*.sam
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+*.tmp
+*.log
+
+.DS_Store
+.idea/
+.vscode/
