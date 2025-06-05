@@ -8,7 +8,7 @@ https://docs.conda.io/
 
 本项目对肝癌细胞(Huh7)、丙型肝炎患者肝细胞(HCV)和正常肝细胞(NL)进行small RNA-seq差异表达分析，旨在探索三种肝细胞的小RNA表达差异，识别潜在的疾病治疗靶点。
 
-## 📝 项目摘要
+## 项目摘要
 
 利用GEO数据库中GSE128164项目的公开数据，通过搭建conda环境，使用生物信息学工具链对三种肝细胞类型的转录组数据进行比较分析：
 
@@ -18,13 +18,13 @@ https://docs.conda.io/
 4. ​**​差异分析​**​：Python实现的Welch's t-test和FDR校正
 5. ​**​可视化​**​：生成火山图和热图展示差异表达基因
 
-🔑 ​**​关键发现​**​：
+ **​关键发现​**​：
 
 - HCV感染特异性扰乱部分非编码RNA表达
 - 肝癌细胞存在全局性小RNA表达紊乱
 - HCV感染组与肝癌组的基因表达谱高度相似
 
-## 📋 目录结构
+## 目录结构
 
 ```
 ├── data/                   # 数据目录（需手动下载）
@@ -49,7 +49,7 @@ https://docs.conda.io/
 └── README.md               # 项目说明
 ```
 
-## ⚙️ 安装与使用
+## 安装与使用
 
 ### 1. 克隆仓库
 
@@ -93,7 +93,7 @@ bash scripts/featurecounts.sh
 python scripts/analysis.py
 ```
 
-## 🔍 数据来源
+## 数据来源
 
 - GEO项目: [GSE128164](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128164)
 - 样本信息:
@@ -104,11 +104,11 @@ python scripts/analysis.py
 |SRR8713491, SRR8713492|NL|正常肝细胞|
 |SRR8713493, SRR8713494|HCV|HCV患者肝细胞|
 
-## 📜 许可证
+## 许可证
 
 本项目采用 MIT 许可证
 
-## 📚 参考文献
+## 参考文献
 
 1. Goodgame, Boone et al. (2003). Am J Gastroenterol
 2. Kim, Daehwan et al. (2015). Nat Methods
