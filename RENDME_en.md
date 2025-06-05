@@ -1,12 +1,14 @@
 # Liver-smallRNA-Seq-Differential-Analysis
 
-https://opensource.org/licenses/MIT  
+https://opensource.org/licenses/MIT
+
 https://www.python.org/
+
 https://docs.conda.io/
 
 This project performs differential expression analysis of small RNA-seq data from hepatocellular carcinoma cells (Huh7), hepatitis C virus (HCV)-infected liver cells, and normal liver cells (NL), aiming to explore the differences in small RNA expression among these three types of liver cells and identify potential therapeutic targets.
 
-## 📝 Project Summary
+## Project Summary
 
 Using publicly available data from GEO project GSE128164, we established a conda environment and employed a bioinformatics toolchain for comparative analysis of transcriptomic data from three liver cell types:
 
@@ -16,13 +18,13 @@ Using publicly available data from GEO project GSE128164, we established a conda
 4. ​**​Differential Analysis​**​: Welch's t-test and FDR correction implemented in Python
 5. ​**​Visualization​**​: Volcano plots and heatmaps for differentially expressed genes
 
-🔑 ​**​Key Findings​**​:
+​**​Key Findings​**​:
 
 - HCV infection specifically disrupts the expression of some non-coding RNAs
 - Hepatocellular carcinoma cells show global dysregulation of small RNA expression
 - HCV-infected cells and cancer cells exhibit highly similar gene expression profiles
 
-## 📋 Directory Structure
+## Directory Structure
 
 ```
 ├── data/                   # Data directory (manual download required)
@@ -92,7 +94,7 @@ python scripts/analysis.py
 ```
 
 
-## 🔍 Data Source
+## Data Source
 
 - GEO Project: [GSE128164](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE128164)
 - Sample Information:
@@ -103,11 +105,11 @@ python scripts/analysis.py
 |SRR8713491, SRR8713492|NL|Normal liver cells|
 |SRR8713493, SRR8713494|HCV|HCV-infected liver cells|
 
-## 📜 License
+## License
 
-This project is licensed under the [MIT License](https://yuanbao.tencent.com/chat/naQivTmsDa/LICENSE)
+This project is licensed under the MIT License
 
-## 📚 References
+## References
 
 1. Goodgame, Boone et al. (2003). Am J Gastroenterol
 2. Kim, Daehwan et al. (2015). Nat Methods
