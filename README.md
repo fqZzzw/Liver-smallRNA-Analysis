@@ -1,7 +1,9 @@
 # Liver-smallRNA-Seq-Differential-Analysis
 
 https://opensource.org/licenses/MIT
+
 https://www.python.org/
+
 https://docs.conda.io/
 
 本项目对肝癌细胞(Huh7)、丙型肝炎患者肝细胞(HCV)和正常肝细胞(NL)进行small RNA-seq差异表达分析，旨在探索三种肝细胞的小RNA表达差异，识别潜在的疾病治疗靶点。
