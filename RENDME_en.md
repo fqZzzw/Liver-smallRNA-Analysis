@@ -49,7 +49,7 @@ Using publicly available data from GEO project GSE128164, we established a conda
 └── README.md               # Project description (English)
 ```
 
-## ⚙️ Installation and Usage
+## Installation and Usage
 
 ### 1. Clone the repository
 
